@@ -484,6 +484,14 @@ frameborder="1"
     }
 
     </script>
+    <div id="hint" style="color:white;position:absolute;top:45%;width:100%;text-align:center;">
+  Tap the screen if it stays black for a few seconds...
+</div>
+<script>
+  setTimeout(()=>{ document.getElementById('hint').remove(); }, 8000);
+</script>
+
 
 </body>
 </html>
+
